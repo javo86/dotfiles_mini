@@ -1,0 +1,88 @@
+	Pasos para instalar y preparar mini toshiba nb-200
+instalar según wiki
+
+Gotchas:
+
+packages:
+	pacman -S rxvt-unicode conky tint2 dmenu tmux newsbeuter mpd ncmpcpp openbox, acpid lm_sensors feh imagemagick libreoffice firefox weechat bitlbee laptop-mode-tools git lxappearance obconf
+Repos
+
+Daemons:
+wclock syslog-ng @acpid @alsa net-auto-wireless !network netfs @crond
+
+
+packages:
+	System:
+		terminal emulator:
+			urxvt
+		dotfiles:
+			repos en git:
+				dotvim
+					git://github.com/javo86/dotvim.git
+				dotfiles
+		Power Management:
+			laptop-mode-tools
+			acpid
+		System monitor:
+			conky
+			lm_sensor
+		X:
+			openbox
+			tint2
+		Network:
+			netcfg2:
+				ifplugd
+				wpa_actiond
+		Misc:
+			git
+			lxappearance
+			obconf
+			dmenu
+			tmux
+	Media:
+		feh
+		imagemagick
+		mpd
+		ncmpcpp
+		mplayer
+	www:
+		weechat
+		bitlbee
+		newsbeuter
+		elinks
+		firefox:
+			noscript
+			delicious
+			web tools
+			measure it
+			vimperator
+			colorzilla
+			firebug
+	Devel:
+		python2
+		Web:
+			LAMP:
+				apache2
+				php
+				mysql
+				mod_wsgi
+			Web-Tools:
+				Magento
+				Joomla
+				Drupal
+				Django
+				CI
+				Wordpress
+	Office:
+		[G]vim
+		libreoffice:
+			diccionarios español:
+	Diseño:
+		Web:
+			inkscape
+			gimp
+
+	Optional:
+		yaourt
+		archey
+		awesome

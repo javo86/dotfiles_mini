@@ -1,0 +1,110 @@
+!Xcursor SECTION{{{
+!Xcursor.theme: ArchCursorTheme
+!}}}
+!
+!{{{
+!vim SECTION
+!------------------
+!}}}
+
+!{{{
+!urxvt SECTION
+!------------------
+
+!Color Scheme
+!------------------
+
+*background:#00000f
+*foreground:#a49ffe
+*highlightColor:#444
+URxvt*color0: #2B2B2B
+URxvt*color1: #870000
+URxvt*color2: #5F875F
+URxvt*color3: #875F00
+URxvt*color4: #005FAF
+URxvt*color5: #5F5F87
+URxvt*color6: #008787
+URxvt*color7: #818181
+URxvt*color8: #414141
+URxvt*color9: #D70000
+URxvt*color10: #AFD7AF
+URxvt*color11: #D7AF00
+URxvt*color12: #00AFFF
+URxvt*color13: #AFAFD7
+URxvt*color14: #00D7D7
+URxvt*color15: #CECECE
+
+!------------------
+!False tranparency
+!------------------
+!*rxvt.transparent: true
+!*rxvt.shading: 80 
+
+!------------------
+!Alerta visual para cuando alguien mande mensaje en weechat   
+!------------------
+URxvt*urgentOnBell: true
+
+!------------------
+!True tranparency
+!------------------
+!URxvt.depth: 32
+!URxvt.background: rgba:0000/0000/0099/9900
+
+!tabs
+URxvt.perl-ext-common:  default,tabbed
+
+!remove scrollbar
+URxvt*scrollBar:false
+
+URxvt*meta8: true
+!URxvt*metaSendsEscape: true
+!urxvt*eightBitConfig:true
+
+!------------------
+!Keybindings para vim
+!------------------
+URxvt.keysym.Mod1-j: \033<Alt-j>
+URxvt.keysym.Mod1-k: \033<Alt-k>
+!------------------
+!Clickable links
+!------------------
+
+!------------------
+!Key remaps
+!------------------
+!Urxvt*keysym.
+
+!------------------
+!Fonts
+!------------------
+!*rxvt.font:xft:Bitstream Vera Sans Mono:pixelsize=14:antialias=true
+!URxvt.font: xft:monaco:bold:size=12:antialias=true
+!URxvt*font: -*-*-medium-r-normal-*-*-140-*-*-c-*-iso8859-1
+!URxvt*boldfont: -*-*-bold-r-normal-*-*-140-*-*-c-*-iso8859-1
+URxvt*font:xft:Inconsolata:size=14:antialias=true:hinting=true
+!VIM*font:xft:Inconsolata:size=44:antialias=true:hinting=true
+
+!------------------
+!Named urxvts
+!------------------
+sysMon*depth: 32
+sysMon*background: rgba:0000/0000/0000/0000
+sysMon*.perl-ext-common:  default
+!RootTerm*transparent:true
+!RootTerm*scrollBar:false
+!RootTerm*geometry:124x24    
+sysMon*borderLess:true
+!RootTerm*foreground:Black   
+
+comTerm*depth: 32
+comTerm*background: rgba:0000/0000/0000/0000
+comTerm*.perl-ext-common:  default
+!RootTerm*transparent:true
+!RootTerm*scrollBar:false
+!RootTerm*geometry:124x24    
+comTerm*borderLess:true
+!RootTerm*foreground:Black   
+
+!}}}Fin urxvt SECTION
+
